@@ -1,0 +1,23 @@
+{
+  "name": "webpack-starter-template",
+  "version": "0.0.1",
+  "description": "The is intended for a front-end boilerplate",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/MrLuisAmador/Webpack_Starter_Template.git"
+  },
+  "keywords": [
+    "webpack",
+    "frontend"
+  ],
+  "author": "Luis Amador",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrLuisAmador/Webpack_Starter_Template/issues"
+  },
+  "homepage": "https://github.com/MrLuisAmador/Webpack_Starter_Template#readme"
+}
