@@ -14,8 +14,13 @@ module.exports = {
     module: {
       loaders: [
          { test: /\.css$/, 
-           loader: ExtractTextPlugin.extract('style-loader', 'css-loader') 
+           loader: ExtractTextPlugin.extract('style-loader', 'css-loader!postcss-loader') 
          }
       ]
-    }
+    },
+     postcss: () => {
+      return [
+        require('autoprefixer')
+      ];
+    } 
 }
