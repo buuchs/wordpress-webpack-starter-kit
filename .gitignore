@@ -1,1 +1,5 @@
+# Dependency Folders
 node_modules/
+
+# Production Folder. Will be recompiled from scratch.
+dist/
