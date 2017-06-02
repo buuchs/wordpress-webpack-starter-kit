@@ -23,15 +23,9 @@
   },
   "homepage": "https://github.com/MrLuisAmador/wordpress-webpack-starter-kit#readme",
   "devDependencies": {
-    "autoprefixer": "^6.7.0",
-    "babel": "^6.5.2",
-    "css-loader": "^0.26.1",
-    "extract-text-webpack-plugin": "^1.0.1",
-    "file-loader": "^0.9.0",
-    "postcss": "^5.2.11",
-    "postcss-loader": "^1.2.2",
-    "rimraf": "^2.5.4",
-    "style-loader": "^0.13.1",
-    "webpack": "^1.14.0"
+    "css-loader": "^0.28.4",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "style-loader": "^0.18.1",
+    "webpack": "^2.6.1"
   }
 }

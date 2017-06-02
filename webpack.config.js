@@ -5,22 +5,19 @@ var ExtractTextPlugin = require('extract-text-webpack-plugin');
 module.exports = {
     entry: './src/js/main.js',
     output: {
-        path: path.resolve(__dirname, './assets/'),
+        path: path.resolve(__dirname, './build/'),
         filename: 'js/bundle.js'
     },
-    plugins: [
-      new ExtractTextPlugin('./css/style.css')
-    ],
+    
     module: {
-      loaders: [
-         { test: /\.css$/, 
-           loader: ExtractTextPlugin.extract('style-loader', 'css-loader!postcss-loader') 
-         }
-      ]
+        rules: [{
+            test: /\.css$/,
+            use: ExtractTextPlugin.extract({
+               use: 'css-loader'
+           })
+        }]
     },
-     postcss: () => {
-      return [
-        require('autoprefixer')
-      ];
-    } 
+    plugins: [
+        new ExtractTextPlugin('css/style.css'),
+    ]
 }
