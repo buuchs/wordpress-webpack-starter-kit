@@ -23,8 +23,10 @@
   },
   "homepage": "https://github.com/MrLuisAmador/wordpress-webpack-starter-kit#readme",
   "devDependencies": {
+    "autoprefixer": "^7.1.1",
     "css-loader": "^0.28.4",
     "extract-text-webpack-plugin": "^2.1.0",
+    "postcss-loader": "^2.0.5",
     "style-loader": "^0.18.1",
     "webpack": "^2.6.1"
   }

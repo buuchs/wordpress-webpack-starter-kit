@@ -13,8 +13,11 @@ module.exports = {
         rules: [{
             test: /\.css$/,
             use: ExtractTextPlugin.extract({
-               use: 'css-loader'
-           })
+               use: [
+                    { loader: 'css-loader', options: { importLoaders: 1 } },
+                    'postcss-loader'
+                ]
+            })
         }]
     },
     plugins: [
