@@ -4,7 +4,9 @@
   "description": "This is intended to be used as an aid to a new WordPress project",
   "main": "main.js",
   "scripts": {
-    "build": "webpack"
+    "prepublish": "webpack",
+    "start": "webpack-dev-server",
+    "prod": "webpack -p"
   },
   "repository": {
     "type": "git",
@@ -28,6 +30,7 @@
     "extract-text-webpack-plugin": "^2.1.0",
     "postcss-loader": "^2.0.5",
     "style-loader": "^0.18.1",
-    "webpack": "^2.6.1"
+    "webpack": "^2.6.1",
+    "webpack-dev-server": "^2.4.5"
   }
 }
