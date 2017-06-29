@@ -3,11 +3,11 @@
 This starter kit aims to solve having to recreate your working development envoriment a billion times over on a 
 new WordPress Project. This will fast forward your setup time so that you can get straight to coding.
 
-## File Structer
+## File Structure
 
 To DO: Rewrite this to make sense to WordPress folders structure.
 
-In most WebPack workflow you will find a src directory. This directory is where most of your development edits will happen. I've choosen to name the compiled directory that WebPack creates to `assets/` since the files/content that live there will mostly be of JavaScript, images and Sass/Less/CSS type. Keep in mind that most WebPack projects name the compiled directory 
+In most WebPack workflow you will find a src directory. This directory is where most of your development edits will happen. I've chosen to name the compiled directory that WebPack creates to `assets/` since the files/content that live there will mostly be of JavaScript, images and Sass/Less/CSS type. Keep in mind that most WebPack projects name the compiled directory 
 `build/`.
 
 ## Plugins
