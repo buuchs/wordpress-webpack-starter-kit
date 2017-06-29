@@ -1,0 +1,22 @@
+/*
+ Theme Name:   WordPress WebPack Starter Kit
+ Theme URI:    https://github.com/MrLuisAmador/wordpress-webpack-starter-kit
+ Description:  This starter kit aims to solve having to recreate your working development envoriment a billion times over on a new WordPress Project. This will fast forward your setup time so that you can get straight to coding.
+ Author:       Luis Amador
+ Author URI:   http://www.mrluisamador.com/
+ Template:     twentyseventeen
+ Version:      0.0.1
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twenty-seventeen-child
+*/
+
+/* 
+*   
+*  The Less preprocessor is being used to compile your stylesheet
+*  on this website. 
+*  If you don't have access or the know how to compile LESS,
+*  just insert your CSS code here and it will beat out any of 
+*  the other CSS styling. 
+*/

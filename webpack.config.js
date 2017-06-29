@@ -30,6 +30,6 @@ module.exports = {
     },
 
     plugins: [
-        new ExtractTextPlugin('./css/style.css'),
+        new ExtractTextPlugin('./css/main.css'),
     ]
 }
