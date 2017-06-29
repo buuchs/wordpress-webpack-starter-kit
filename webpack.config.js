@@ -5,9 +5,9 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin');
 module.exports = {
     entry: './src/js/main.js',
     output: {
-        path: path.resolve(__dirname, 'dist'),
-        filename: 'js/bundle.js',
-        publicPath: 'dist'
+        path: path.resolve(__dirname, 'assets'),
+        filename: './js/bundle.js',
+        publicPath: 'assets'
     },
     
     module: {
@@ -24,10 +24,12 @@ module.exports = {
 
     devServer: {
         compress: false,
-        port: 9000
+        proxy: {
+        "/api": "http://localhost:80"
+        }
     },
 
     plugins: [
-        new ExtractTextPlugin('css/style.css'),
+        new ExtractTextPlugin('./css/style.css'),
     ]
 }

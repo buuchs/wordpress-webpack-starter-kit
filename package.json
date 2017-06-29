@@ -4,7 +4,7 @@
   "description": "This is intended to be used as an aid to a new WordPress project",
   "main": "main.js",
   "scripts": {
-    "prepublish": "webpack",
+    "build": "webpack",
     "start": "webpack-dev-server",
     "prod": "webpack -p"
   },

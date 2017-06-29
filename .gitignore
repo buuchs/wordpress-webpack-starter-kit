@@ -1,5 +1,6 @@
 # Dependency Folders
 node_modules/
+assets/
 
 # Production Folder. Will be recompiled from scratch.
 dist/

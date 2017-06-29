@@ -3,8 +3,8 @@
 * It's required and follow the stacked order
 *
 */
-require('../css/style.css');
+require('../css/main.css');
 
 
-console.log('Luis New')
+console.log('Luis')
 
