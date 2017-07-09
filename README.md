@@ -13,3 +13,10 @@ In most WebPack workflow you will find a src directory. This directory is where 
 ## Plugins
 
  **Note** The CSS loaders will be used to compile LESS but it will not insert the css files into your website. WordPress does this already for us and there's no good work around that I have yet to discover. 
+
+
+ ## Deployment Process
+
+ When you don't have shell access but you can sftp into the server.
+
+ Use rsync to deploy your files/directories to you production server. 
