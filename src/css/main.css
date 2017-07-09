@@ -1,6 +1,6 @@
+@import "normalize.css"; /* This is being included from the node_modules folder */
+@import 'partials/variables';
+@import 'partials/base';
+@import 'partials/fonts';
 @import 'partials/header';
-
-body {
-    background: green;
-    transition: 3s;
-}
+@import 'partials/footer';
