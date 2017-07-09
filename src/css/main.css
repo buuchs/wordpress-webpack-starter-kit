@@ -1,3 +1,6 @@
+@import 'partials/header';
+
 body {
-    background: pink;
+    background: green;
+    transition: 3s;
 }
