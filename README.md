@@ -1,6 +1,6 @@
 # WordPress WebPack Starter Kit
 
-This starter kit aims to solve having to recreate your working development envoriment a billion times over on a 
+This starter kit aims to solve having to recreate your working development environment a billion times over on a 
 new WordPress Project. This will fast forward your setup time so that you can get straight to coding.
 
 ## File Structure
