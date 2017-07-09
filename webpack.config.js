@@ -22,13 +22,6 @@ module.exports = {
         }]
     },
 
-    devServer: {
-        compress: false,
-        proxy: {
-        "/api": "http://localhost:80"
-        }
-    },
-
     plugins: [
         new ExtractTextPlugin('./css/main.css'),
     ]
