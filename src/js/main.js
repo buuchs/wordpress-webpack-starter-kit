@@ -4,8 +4,10 @@
 *
 */
 
-require('../css/main.css');
+require('../css/main.less');
 
+var x = ()=> {
+    console.log('Luis')
+}
 
-console.log('Luis');
-
+x();
