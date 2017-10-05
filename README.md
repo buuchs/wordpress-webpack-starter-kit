@@ -17,7 +17,9 @@ opt out of Less specific coding style.
 
 2. autoprefixer -- I'm using this plugin to automatically insert browsers prefixes so I don't have to think about it. 
 
-3. postcss-cssnext -- I'm using this plugin to use future CSS code now.
+3. postcss-cssnext -- I'm using this plugin so that I'm able to use future CSS code now.
+
+4. rimraf -- Using this to make sure I start with a new clean compilation of my assets files.
 
 ## Development Process - NPM Scripts Explained
 
@@ -37,3 +39,10 @@ A manual browser refresh will need to be made.
  When you don't have shell access but you can sftp into the server.
 
  Use rsync to deploy your files/directories to you production server. 
+
+## TO DO's
+
+1. Setup a server with live reload.
+2. Setup a production build script
+3. Setup up image compression.
+4. Reformat code style

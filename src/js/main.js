@@ -7,7 +7,15 @@
 require('../css/main.less');
 
 var x = ()=> {
-    console.log('Luis')
+    console.log('Evan')
 }
 
-x();
+x(); 
+
+
+class MyClass { }
+
+function annotation(target) {
+   target.annotated = true;
+}
+
