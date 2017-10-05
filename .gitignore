@@ -4,3 +4,4 @@ node_modules/
 
 # Production Folder. Will be recompiled from scratch.
 assets/
+vendor/
